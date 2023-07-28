@@ -1,3 +1,6 @@
+/**
+ * Aggregator Module for dev.mccue.guava.
+ */
 module dev.mccue.guava {
     requires transitive dev.mccue.guava.base;
     requires transitive dev.mccue.guava.primitives;
@@ -10,4 +13,5 @@ module dev.mccue.guava {
     requires transitive dev.mccue.guava.hash;
     requires transitive dev.mccue.guava.io;
     requires transitive dev.mccue.guava.net;
+    requires transitive dev.mccue.guava.reflect;
 }

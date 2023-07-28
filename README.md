@@ -34,6 +34,7 @@ workflow is more viable
   * `com.google.common.hash`
   * `com.google.common.io`
   * `com.google.common.net`
+  * `com.google.common.reflect`
 
 ## Usage
 
