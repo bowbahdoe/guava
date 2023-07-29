@@ -14,4 +14,5 @@ module dev.mccue.guava {
     requires transitive dev.mccue.guava.io;
     requires transitive dev.mccue.guava.net;
     requires transitive dev.mccue.guava.reflect;
+    requires transitive dev.mccue.guava.concurrent;
 }

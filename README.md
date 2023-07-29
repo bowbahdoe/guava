@@ -35,6 +35,7 @@ workflow is more viable
   * `com.google.common.io`
   * `com.google.common.net`
   * `com.google.common.reflect`
+  * `com.google.common.util.concurrent`
 
 ## Usage
 
