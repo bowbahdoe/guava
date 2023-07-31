@@ -22,20 +22,26 @@ workflow is more viable
 * GWT, j2objc, j2cl, etc. are not things I care about or want to support.
 * Does not include any android specific code. Equivalent to the `-jre` build.
 * Compiled for Java 9+, not Java 8
-* Only includes
-  * `com.google.common.base`
-  * `com.google.common.primitives`
-  * `com.google.common.escape`
-  * `com.google.common.math`
-  * `com.google.common.collect`
-  * `com.google.common.xml`
-  * `com.google.common.html`
-  * `com.google.common.graph`
-  * `com.google.common.hash`
-  * `com.google.common.io`
-  * `com.google.common.net`
-  * `com.google.common.reflect`
-  * `com.google.common.util.concurrent`
+* Does not include
+  * `com.google.common.eventbus` (Guava docs explicitly recommends against its use)
+  * `com.google.common.cache` ([Caffiene](https://github.com/ben-manes/caffeine) covers that use.)
+  * `com.google.common.annotations` (Only `@Beta` and `@VisibleForTesting` would be relevant without GWT+etc. testing, and you can make your own pretty easily.)
+  
+## If you like the idea of this
+
+<details>
+  <summary>Click to expand</summary>
+
+
+<p>The biggest thing holding this back from being a "reliable" project is that the transformation
+from Guava to the subpackages was done manually. If that transformation is scripted (with something like OpenRewrite)
+then I could more easily keep this up to date with guava's development and test only the parts I make changes to.</p>
+
+<p>I am willing to do that work, but only if it will genuinely help someone. So reach out to me over discord, reddit, slack, or email. I'm happy enough to stop here
+otherwise.</p>
+
+</details>
+
 
 ## Usage
 

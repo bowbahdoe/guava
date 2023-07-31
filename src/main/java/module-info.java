@@ -1,5 +1,5 @@
 /**
- * Aggregator Module for dev.mccue.guava.
+ * Aggregator Module for {@code dev.mccue.guava}.
  */
 module dev.mccue.guava {
     requires transitive dev.mccue.guava.base;
