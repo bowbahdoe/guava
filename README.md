@@ -7,6 +7,22 @@ This package is a fork of [Guava](https://github.com/google/guava) around roughl
 * Has a proper `module-info.java`
 * Has all usages of `sun.misc.*` removed
 
+This is an aggregator module and each package of guava has been split into submodules which can be found here
+
+* [dev.mccue.guava.base](https://github.com/bowbahdoe/guava-base)
+* [dev.mccue.guava.primitives](https://github.com/bowbahdoe/guava-primitives)
+* [dev.mccue.guava.escape](https://github.com/bowbahdoe/guava-escape)
+* [dev.mccue.guava.math](https://github.com/bowbahdoe/guava-math)
+* [dev.mccue.guava.collect](https://github.com/bowbahdoe/guava-collect)
+* [dev.mccue.guava.xml](https://github.com/bowbahdoe/guava-xml)
+* [dev.mccue.guava.html](https://github.com/bowbahdoe/guava-html)
+* [dev.mccue.guava.graph](https://github.com/bowbahdoe/guava-graph)
+* [dev.mccue.guava.hash](https://github.com/bowbahdoe/guava-hash)
+* [dev.mccue.guava.io](https://github.com/bowbahdoe/guava-io)
+* [dev.mccue.guava.net](https://github.com/bowbahdoe/guava-net)
+* [dev.mccue.guava.reflect](https://github.com/bowbahdoe/guava-reflect)
+* [dev.mccue.guava.concurrent](https://github.com/bowbahdoe/guava-concurrent)
+
 ## Why
 
 * It [doesn't seem like guava will be modularized any time soon](https://github.com/google/guava/issues/2970#issuecomment-1572148291)
