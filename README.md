@@ -42,8 +42,8 @@ workflow is more viable
   * `com.google.common.eventbus` (Guava docs explicitly recommends against its use)
   * `com.google.common.cache` ([Caffiene](https://github.com/ben-manes/caffeine) covers that use.)
   * `com.google.common.annotations` (Only `@Beta` and `@VisibleForTesting` would be relevant without GWT+etc. testing, and you can make your own pretty easily.)
-  
-## If you like the idea of this
+
+## If you have a use for this
 
 <details>
   <summary>Click to expand</summary>
@@ -54,7 +54,7 @@ from Guava to the subpackages was done manually. If that transformation is scrip
 then I could more easily keep this up to date with guava's development and test only the parts I make changes to.</p>
 
 <p>I am willing to do that work, but only if it will genuinely help someone. So reach out to me over discord, reddit, slack, or email. I'm happy enough to stop here
-otherwise.</p>
+otherwise since I got my fun jlink builds working.</p>
 
 </details>
 
