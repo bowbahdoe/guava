@@ -1,5 +1,21 @@
 # guava
 
+## Usage
+
+For the most part, you should be able to just find+replace all
+references to `com.google.common` with `dev.mccue.guava`.
+
+Consult the [original documentation](https://github.com/google/guava) for
+in-depth usage guides.
+
+```xml
+<dependency>
+    <groupId>dev.mccue</groupId>
+    <artifactId>guava</artifactId>
+    <version>0.0.3</version>
+</dependency>
+```
+
 ## What
 
 This module is a soft-fork of [Guava](https://github.com/google/guava) which
@@ -72,19 +88,3 @@ Feel free to reach out.
   * `com.google.common.cache` ([Caffiene](https://github.com/ben-manes/caffeine) covers that use.)
   * `com.google.common.annotations` (Only `@Beta` and `@VisibleForTesting` would be relevant without GWT+etc. testing, and you can make your own pretty easily.)
 * Compiled for Java 9+, not Java 8
-
-## Usage
-
-For the most part, you should be able to just find+replace all
-references to `com.google.common` with `dev.mccue.guava`.
-
-Consult the [original documentation](https://github.com/google/guava) for
-in-depth usage guides.
-
-```xml
-<dependency>
-    <groupId>dev.mccue</groupId>
-    <artifactId>guava</artifactId>
-    <version>0.0.3</version>
-</dependency>
-```
