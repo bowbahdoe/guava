@@ -6,7 +6,7 @@
 
     <groupId>dev.mccue</groupId>
     <artifactId>guava</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <!-- <version>32.1.1</version> -->
     <packaging>jar</packaging>
 
@@ -47,79 +47,79 @@
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-base</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-primitives</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-escape</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-math</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-collect</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-xml</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-html</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-graph</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-hash</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-io</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-net</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-reflect</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>dev.mccue</groupId>
             <artifactId>guava-concurrent</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
     </dependencies>
 

@@ -71,6 +71,6 @@ in-depth usage guides.
 <dependency>
     <groupId>dev.mccue</groupId>
     <artifactId>guava</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
 </dependency>
 ```
