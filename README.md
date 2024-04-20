@@ -24,7 +24,7 @@ This module is a soft-fork of [Guava](https://github.com/google/guava) which
 * Has a proper `module-info.java`
 * Has all usages of `sun.misc.*`, The Security Manager, and `finalize()` removed.
 
-The work of shading is done by [this project](https://github.com/bowbahdoe/guava-generator). Releases of this and dependent modules should contain the guava release or commit hash from which they are generated. The version numbers will not (currently) line up with guava's version numbers, but that can change in the future.
+The work of shading is done by [this project](https://github.com/bowbahdoe/guava-generator). Releases of this and dependent modules should contain the guava release or commit hash from which they are generated.
 
 This is an aggregator module and each package of guava has been split into submodules which can be found here
 
